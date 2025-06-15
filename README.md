@@ -1,2 +1,29 @@
-# pt100-twincat3-lib
-Take full control of your RTD (PT100) temperature measurements in Beckhoff TwinCAT3 with this ready-to-use library. Built for industrial automation engineers, this library simplifies reading and processing analog signals from PT100 sensors using analog resistance reading.
+# PT100 Library for TwinCAT3 (Beckhoff PLC)
+
+This is a **PT100 temperature sensor library** designed for **TwinCAT3** and Beckhoff PLCs.  
+It allows accurate temperature reading and filtering from RTD sensors (PT100) using analog resistance readings.
+
+✅ Supports:
+- Beckhoff PLCs with TwinCAT3
+
+## 🔧 Features
+
+- Ready-to-use `PT100_To_Celc_Converter` function
+- Real-time temperature conversion
+- Works with standard Resistance Measurement Terminal (e.g., EL3692)
+
+
+
+## 🧪 Example Usage
+
+PROGRAM MAIN
+VAR
+	rTemperature 		: LREAL;
+	rResistance			: LREAL;
+	
+END_VAR
+
+rTemperature:=PT100_Calc(Resistance:=rResistance);
+
+
+
