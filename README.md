@@ -18,12 +18,20 @@ It allows accurate temperature reading and filtering from RTD sensors (PT100) us
 
 PROGRAM MAIN
 VAR
-	rTemperature 		: LREAL;
+	rTemperature 		        : LREAL;
 	rResistance			: LREAL;
 	
 END_VAR
 
 rTemperature:=PT100_Calc(Resistance:=rResistance);
+
+## 📥 Get the Full Library
+
+👉 [Download the full PT100 Library on Gumroad](https://swoboda0.gumroad.com/l/bhwep?_gl=1*m6zjla*_ga*...)
+
+
+
+
 
 
 
