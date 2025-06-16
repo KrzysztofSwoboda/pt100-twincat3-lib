@@ -31,7 +31,8 @@ rTemperature:=PT100_Calc(Resistance:=rResistance);
 
 
 
-
+## Keywords
+PT100, TwinCAT3, Beckhoff PLC, RTD sensor, temperature conversion, EL3692, automation, PLC programming, ST, structured text
 
 
 
